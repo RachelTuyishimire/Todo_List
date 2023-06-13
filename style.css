@@ -3,6 +3,7 @@ body{
 }
 #todo-list {
     margin:0 auto;
+    list-style: none;
     color: white;
     margin-left: 40%;
     background-color: #087F5B;
@@ -37,7 +38,11 @@ body{
     cursor: pointer;
     font-size: 16px;
   }
- 
+ #task{
+    list-style: none;
+    margin-right: 5%;
+    border: none;
+ }
   button:hover {
     background-color: white;
   }
