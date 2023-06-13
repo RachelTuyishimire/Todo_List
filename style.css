@@ -1,0 +1,104 @@
+body{
+    margin-left: 30%;
+}
+#todo-list {
+    margin:0 auto;
+    color: white;
+    margin-left: 40%;
+    background-color: #087F5B;
+    width: 50%;
+    border: 1px solid #ccc;
+    /* padding: 10px; */
+    border-radius: 20px;
+  }
+  h1 {
+    text-align: center;
+  }
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 2%;
+    margin-bottom: 10px;
+  }
+  #new-task {
+    padding: 10px;
+    margin-left: 5%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+ 
+  button:hover {
+    background-color: white;
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+  #todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .title{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+  }
+  .title > button{
+    margin-right: 2%;
+    width: 10%;
+    height: 5%;
+    text-align: center;
+
+  }
+  .add{
+    color: white;
+  }
+  .line{
+    font-size: 30px;
+    width: 90%;
+  }
+  #todo-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  #todo-list li input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  #todo-list li input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  .complete-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  .delete-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

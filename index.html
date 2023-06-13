@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="todo-list">
+    <h1>All Tasks</h1>
+   
+    <input type="text" id="new-task" placeholder="Search">
+    <ul id="task">
+    <div class="title"> <h2 class="add">Add</h2> 
+        <button onclick="addNewTask()">+</button>
+        </div>
+        <hr class="line">
+      <li>
+        <input type="checkbox" id="task1">
+        <label for="task1">Work out</label>
+        <button class="complete-btn">Complete</button>
+        <button class="delete-btn">-</button>
+      </li>
+      <li>
+        <input type="checkbox" id="task2">
+        <label for="task2">Read my novel</label>
+        <button class="complete-btn">In progress</button>
+        <button class="delete-btn">-</button>
+      </li>
+      <li>
+        <input type="checkbox" id="task3">
+        <label for="task3"></label>
+        <button class="complete-btn">Complete</button>
+        <button class="delete-btn">-</button>
+      </li>
+    </ul>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
