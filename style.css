@@ -19,13 +19,13 @@ h2{
     min-width: 340px;
     position: absolute;
     margin: auto;
-    top: 0;
+    top: 10;
     left: 0;
     right: 0;
     padding: 30px 0;
     border-radius: 8px;
 }
-*,
+/* *,
 *:before,
 *:after{
     padding: 0;
@@ -33,14 +33,14 @@ h2{
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
-}
+} */
 #newtask{
-    position: relative;    
+    position: relative;  
+    margin-top: -3%;  
     padding: 30px 15px;
     background-color: #087F5B;
     border-radius: 5px;
-    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    
 }
 #newtask input {
     border-radius: 5px;
@@ -51,7 +51,7 @@ h2{
     padding: 12px;
     color: grey;
     font-family: 'Poppins',sans-serif;
-    font-weight: 500;
+    font-weight: 50;
     position: relative;
 }
 #newtask input:focus{
@@ -79,8 +79,7 @@ h2{
    position: relative;
    margin-top: 40px;
    background-color: #087F5B;
-   -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-           box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+   margin-top: 1%;
    padding: 30px 20px;
    border-radius: 5px;
 }
@@ -89,9 +88,9 @@ h2{
     height: 50px;
     padding: 5px 10px;
     border-radius: 0px;
-    margin-top: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    margin-top: -7px;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -100,7 +99,7 @@ h2{
         -ms-flex-pack: justify;
             justify-content: space-between;
     cursor: pointer;
-    border-bottom: 2px solid #d1d3d4;
+    /* border-bottom: 2px solid #d1d3d4; */
 }
 .task span {
     font-family: 'Poppins',sans-serif;
