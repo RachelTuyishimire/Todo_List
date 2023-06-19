@@ -1,64 +1,27 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Todo List</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
 <body>
-  <div id="todo-list">
-    <h1>All Tasks</h1>
-   
-    <input type="text" id="new-task" placeholder="Search">
-    <ul id="task">
-    <div class="title"> <h2 class="add">Add</h2> 
-        <button onclick="addNewTask()">+</button>
-        </div>
-        <hr class="line">
-
-      <li>
-        <input type="checkbox" id="task1">
-        <label for="task1">Work out</label>
-        <button class="complete-btn">Complete</button>
-        <button class="delete-btn">-</button>
-      </li>
-      <li>
-        <input type="checkbox" id="task2">
-        <label for="task2">Read my novel</label>
-        <button class="complete-btn">In progress</button>
-        <button class="delete-btn">-</button>
-      </li>
-      <li>
-        <input type="checkbox" id="task2">
-        <label for="task2">Brunch with my friends</label>
-        <button class="complete-btn">In progress</button>
-        <button class="delete-btn">-</button>
-      </li>
-      <li>
-        <input type="checkbox" id="task2">
-        <label for="task2">Call my sister</label>
-        <button class="complete-btn">In progress</button>
-        <button class="delete-btn">-</button>
-      </li>
-      <li>
-        <input type="checkbox" id="task2">
-        <label for="task2">Personal project</label>
-        <button class="complete-btn">In progress</button>
-        <button class="delete-btn">-</button>
-      </li>
-      <li>
-        <input type="checkbox" id="task2">
-        <label for="task2">Paint my house</label>
-        <button class="complete-btn">In progress</button>
-        <button class="delete-btn">-</button>
-      </li>
-      <li>
-        <input type="checkbox" id="task3">
-        <label for="task3"></label>
-        <button class="complete-btn">Complete</button>
-        <button class="delete-btn">-</button>
-      </li>
-    </ul>
+  <link rel="stylesheet" href="style.css">
+<div class="container">
+  <div class="ha">
+    <h2>All Tasks</h2>
   </div>
+ 
+  <div id="newtask">
+      <input type="text" placeholder="Task to be done" value= 'Enter Task'/>
+      <button id="push">+</button>
+  </div>
+
+  <div id="tasks"></div>
+</div>
+
+
+
 <script src="script.js"></script>
 </body>
 </html>
